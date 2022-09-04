@@ -23,7 +23,7 @@ int main(void)
     full = binary_tree_is_full(root);
     printf("Is %d full: %d\n", root->n, full);
     full = binary_tree_is_full(root->left);
-    printf("Balance of %d: %+d\n", root->left->n, full);
+    printf("Is %d full: %d\n", root->left->n, full);
     full = binary_tree_is_full(root->right);
     printf("Is %d full: %d\n", root->right->n, full);
     return (0);
